@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ECECECA1;
+}
+
+.nav-bar {
+
+    background-color: #0C73EB;
+    overflow: hidden;
+    height: 40px;
+}
+
+a,a:visited,a:active {
+    text-decoration: none;
+    color: #0C73EB;
+}
+
+.nav-bar .login-btn {
+    background-color: white;
+    color: #0C73EB;
+    width: 110px;
+    font-size: 13px;
+    text-align: center;
+    height: 15px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    display: inline;
+}
+
+.nav-bar img {
+    width: 80px; 
+    vertical-align: middle; 
+    height: 30px; 
+    margin-top: 5px; 
+    margin-left: 220px; 
+    margin-right: 0px; 
+    display: inline;
+}
+.nav-bar input{
+    width: 400px; 
+    height: 30px; 
+    vertical-align:middle; 
+    padding: auto; 
+    margin-left: 0px 0px 0px 0px; 
+    display: inline; 
+    border: none; 
+    border-radius: 1px;
+} 
+
+.below-nav {
+    background-color: white;
+    overflow: hidden;
+    height: 109px;
+    border-bottom: 2px solid gainsboro;
+}
+
+.below-nav img {
+    height: 60px;
+    width: 60px;
+    display: inline;
+    margin: 2px 20px 0px 20px;
+    padding: 5px;
+    transform: translate(0.5s);
+    cursor: pointer;
+}
+.below-nav pre {
+    margin: 0px; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.below-nav pre:hover {
+    color: #0C73EB;
+}
+
+.firstSection {
+    background-color: white;
+    align-items: center;
+    margin-top: 9px;
+    margin-left: 80px;
+    margin-right: 260px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    height: 240px;
+    width: calc(100% - 350px);
+    border-radius: 1.5px;
+    border: 1.5px solid rgba(220, 220, 220, 0.733);
+}
+
+.firstSection img {
+    height: 110px;
+    width: 110px;
+    display: inline;
+    margin: 15px 20px 5px 25px;
+    cursor: pointer;
+}
+
+.firstSection .btns {
+    cursor: pointer;
+    background-color: #0C73EB;
+    color: white;
+    font-size: x-small;
+    border: none;
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-left: 770px;
+
+}
+.firstSection p{
+    text-align: left; 
+    display: inline; 
+    margin: 14px 0px 4px 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstSection pre{
+    margin: 0px; 
+    text-align: center; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: small;
+}
+
+.ad {
+    background-color: white;
+    height: 240px;
+    margin-bottom: 5px;
+    margin-top: 9px;
+    margin-right: 80px;
+    width: 172px;
+    float: right;
+    border: 1.5px solid rgba(220, 220, 220, 0.733);
+    cursor: pointer;
+
+}
+.ad img{
+    width: 165px; 
+    height: 230px; 
+    margin-top: 4.5px; 
+    margin-left: 4px; 
+    align-content: center;
+}
+
+.secondSection {
+    background-color: white;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 235px;
+    width: calc(100% - 160px);
+    overflow: hidden;
+    border-radius: 1.5px;
+    border: 1.5px solid rgba(220, 220, 220, 0.733);
+
+}
+
+.secondSection .books {
+    display: inline;
+}
+
+.secondSection .books p {
+    display: inline;
+    width: max-content;
+}
+
+.secondSection .secondButton input {
+    cursor: pointer;
+    background-color: #0C73EB;
+    color: white;
+    font-size: x-small;
+    height: 35px;
+    border: none;
+    width: 90px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 100px;
+    border-radius: 3px;
+    float: right;
+}
+
+.secondSection .btns {
+    cursor: pointer;
+    background-color: #0C73EB;
+    color: white;
+    font-size: x-small;
+    border: none;
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-left: 855px;
+}
+
+.secondSection img {
+    height: 110px;
+    width: 98px;
+    display: inline;
+    margin: 0px 28px 5px 30px;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+.secondSection pre{
+    margin: 0px; 
+    text-align: center; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: small;
+}
+
+.border {
+    background-color: #ECECECA1;
+    height: 2px;
+    width: auto;
+    margin-top: 12px;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
