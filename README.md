@@ -1,6 +1,6 @@
-# HTML-CSS-Practical
+# HTML-CSS-Practical (Branch: fixedCode)
 
-### This repository contains all the practicals performed that are related to HTML/CSS.
+### This branch contains the updated version of Practical-1
 
 
 Practical-1 (Flipkart Product page)
