@@ -4,41 +4,6 @@ body {
     background-color: #ECECECA1;
 }
 
-/* search bar start */
-.input-icons i {
-    position: absolute;
-    margin: -34px 0px 0px 290px;
-}
-
-.input-icons {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.icon {
-    padding: 10px;
-    min-width: 40px;
-}
-
-.input-field {
-    width: 100%;
-    padding: 9px;
-    text-align: left;
-}
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-        font-size: 14px;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #0C73EB;
-    cursor: pointer;
-}
-/* search bar end */
-
 .nav-bar {
 
     background-color: #0C73EB;
@@ -46,9 +11,7 @@ body {
     height: 40px;
 }
 
-a,
-a:visited,
-a:active {
+a,a:visited,a:active {
     text-decoration: none;
     color: #0C73EB;
 }
@@ -61,8 +24,8 @@ a:active {
     text-align: center;
     height: 15px;
     float: right;
-    margin-right: 340px;
-    margin-top: -57px;
+    margin-right: 300px;
+    margin-top: 7px;
     margin-bottom: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -71,25 +34,25 @@ a:active {
 }
 
 .nav-bar img {
-    width: 80px;
-    vertical-align: middle;
-    height: 30px;
-    margin-top: 5px;
-    margin-left: 284px;
-    margin-right: 0px;
+    width: 80px; 
+    vertical-align: middle; 
+    height: 30px; 
+    margin-top: 5px; 
+    margin-left: 220px; 
+    margin-right: 0px; 
     display: inline;
 }
-
-.nav-bar input {
-    width: 415px;
-    height: 12px;
-    vertical-align: middle;
-    padding: auto;
-    margin: -52px 0px 0px -106px;
-    display: inline;
-    border: none;
+.nav-bar input{
+    width: 400px; 
+    height: 30px; 
+    vertical-align:middle; 
+    padding: auto; 
+    margin-left: 0px 0px 0px 0px; 
+    display: inline; 
+    border: none; 
     border-radius: 1px;
-}
+} 
+
 .below-nav {
     background-color: white;
     overflow: hidden;
@@ -106,13 +69,11 @@ a:active {
     transform: translate(0.5s);
     cursor: pointer;
 }
-
 .below-nav pre {
-    margin: 0px;
-    text-align: center;
+    margin: 0px; 
+    text-align: center; 
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .below-nav pre:hover {
     color: #0C73EB;
 }
@@ -125,14 +86,15 @@ a:active {
     margin-right: 260px;
     margin-bottom: 5px;
     overflow: hidden;
-    height: 264px;
+    height: 240px;
     width: calc(100% - 350px);
     border-radius: 1.5px;
     border: 1.5px solid rgba(220, 220, 220, 0.733);
 }
+
 .firstSection img {
-    height: 115px;
-    width: 115px;
+    height: 110px;
+    width: 110px;
     display: inline;
     margin: 15px 20px 5px 25px;
     cursor: pointer;
@@ -150,31 +112,24 @@ a:active {
     margin-top: 10px;
     border-radius: 3px;
     margin-left: 770px;
-}
 
-.firstSection p {
-    text-align: left;
-    display: inline;
-    margin: 14px 0px 4px 15px;
+}
+.firstSection p{
+    text-align: left; 
+    display: inline; 
+    margin: 14px 0px 4px 15px; 
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.firstSection pre {
-    margin: 5px 0px 5px 0px;
-    color: black;
-    text-align: center;
-    font-family: 'Roboto',Arial,sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-}
-.firstSection i {
-    margin: 10px 0px 10px 0px;
-    padding: 5px;
+.firstSection pre{
+    margin: 0px; 
+    text-align: center; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: small;
 }
 
 .ad {
     background-color: white;
-    height: 264px;
+    height: 240px;
     margin-bottom: 5px;
     margin-top: 9px;
     margin-right: 80px;
@@ -184,12 +139,11 @@ a:active {
     cursor: pointer;
 
 }
-
-.ad img {
-    width: 165px;
-    height: 255px;
-    margin-top: 4.5px;
-    margin-left: 4px;
+.ad img{
+    width: 165px; 
+    height: 230px; 
+    margin-top: 4.5px; 
+    margin-left: 4px; 
     align-content: center;
 }
 
@@ -199,11 +153,12 @@ a:active {
     margin-top: 5px;
     margin-left: 80px;
     margin-right: 80px;
-    height: 260px;
+    height: 235px;
     width: calc(100% - 160px);
     overflow: hidden;
     border-radius: 1.5px;
     border: 1.5px solid rgba(220, 220, 220, 0.733);
+
 }
 
 .secondSection .books {
@@ -252,11 +207,10 @@ a:active {
     padding: 0px 20px 0px 20px;
     cursor: pointer;
 }
-
-.secondSection pre {
-    margin: 0px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+.secondSection pre{
+    margin: 0px; 
+    text-align: center; 
+    font-family: 'Roboto', sans-serif; 
     font-size: small;
 }
 
