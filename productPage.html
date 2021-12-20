@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <!-- CSS files end -->
-    
+
 </head>
 
 <body>
@@ -27,18 +27,38 @@
         <img src="/flipkart.jpg" alt="logo">
 
         <!-- Search bar -->
-        <input type="search" placeholder="Search for Products, brands, and more">
+        <!-- <input type="search" placeholder="Search for Products, brands, and more"> -->
+        <div style="max-width:400px;margin:auto">
+            <div class="input-icons">
+                <i class="fa fa-search icon"></i>
+                <input class="input-field" type="text" placeholder="Search for Products, brands, and more">
+            </div>
+        </div>
 
         <!-- Login button -->
         <div class="login-btn">
             <a href="login.html"><b>Login</b></a>
         </div>
+        <!-- <i class="fa fa-heart icon"></i> -->
+        <!-- <label for="more">Choose a car:</label> -->
+        <select name="more" id="more" style="float: right; background-color: #0C73EB; border: none;
+        color: white; font-size: 13px; font-weight: bolder; margin: -52px 230px 0px 0px; cursor: pointer;">
+            <option value="more">More</option>
+            <option value="opt1">Opt1</option>
+            <option value="opt2">Opt2</option>
+            <option value="opt3">Opt3</option>
+        </select>
+
+        <img src="updatedCart.png" alt="" style="float: right;
+        margin: -53px 145px 0px 0px;
+        height: 20px;
+        width: 60px; cursor: pointer;"> Cart
 
         <!-- Comments -->
         <!-- <img src="search.jpg" alt="" style="width: 30px; height: 20px; margin: 0px 0px 0px 0px; padding: 0px;"> -->
         <!-- <input type="button" value="More" style="vertical-align: middle; margin: 0px 150px 50px;"> -->
         <!-- <img src="cart.png"> -->
-        
+
     </div>
     <!-- Nav-bar ends-->
 
@@ -58,22 +78,22 @@
                         <pre>  Mobile</pre>
                     </td>
                     <td><img src="o4.webp"><br>
-                        <pre>  Fashion</pre>
+                        <pre>  Fashion <i class="fa fa-angle-down" style="color: black;"></i></pre>
                     </td>
                     <td><img src="o5.webp"><br>
-                        <pre>  Electronics</pre>
+                        <pre>  Electronics <i class="fa fa-angle-down" style="color: black;"></i></pre>
                     </td>
                     <td><img src="o6.webp"><br>
-                        <pre>  Home</pre>
+                        <pre>  Home <i class="fa fa-angle-down" style="color: black;"></i></pre>
                     </td>
                     <td><img src="o7.webp"><br>
-                        <pre>  Appliances</pre>
+                        <pre>  Appliances <i class="fa fa-angle-down" style="color: black;"></i></pre>
                     </td>
                     <td><img src="o8.webp"><br>
                         <pre>  Travel</pre>
                     </td>
                     <td><img src="o9.webp"><br>
-                        <pre>  Beauty, Toys & More</pre>
+                        <pre>  Beauty, Toys & More <i class="fa fa-angle-down" style="color: black;"></i></pre>
                     </td>
                 </tr>
             </table>
@@ -94,34 +114,41 @@
     <!-- First product category div starts -->
     <div class="firstSection">
         <p>Deals of the day</p>
+        <img src="clock.png" alt="" style="height: 20px; width: 20px; float: right; margin: 0px 860px 0px 0px;">
         <input type="button" value="VIEW ALL" class="btns">
         <div class="border"></div>
         <table>
             <tr>
                 <td> <img src="f1.webp" alt=""><br>
                     <pre>  Wallets and Belts
-<i style="color: green;">Extra 10% Off</i></pre>
+<i style="color: #388e3c; font-size: small;">Extra 10% Off</i>
+<small style="color: #9b9b9b; font-weight: bolder;">Explore more</small></pre>
                 </td>
                 <td> <img src="f2.webp" alt=""><br>
                     <pre>  Winter wear
-<i style="color: green;">Extra 20% Off</i></pre>
+<i style="color: #388e3c; font-size: small;">Extra 20% Off</i>
+<small style="color: #9b9b9b; font-weight: bolder;">New arrivals</small></pre>
                 </td>
                 </td>
                 <td> <img src="f3.webp" alt=""><br>
                     <pre>  ADIDAS, Reebok, Puma
-<i style="color: green;">Min 40% Off</i></pre>
+<i style="color: #388e3c; font-size: small;">Min 40% Off</i>
+<small style="color: #9b9b9b; font-weight: bolder;">Lowest price ever</small></pre>
                 </td>
                 <td> <img src="f4.webp" alt=""><br>
                     <pre>  Sparx, Bruton & More
-<i style="color: green; font-size: small;">From Rs.199+10%Off</i></pre>
+<i style="color: #388e3c; font-size: small;">From Rs.199+10%Off</i>
+<small style="color: #9b9b9b; font-weight: bolder;">Budget friendly</small></pre>
                 </td>
                 <td> <img src="f5.webp" alt=""><br>
                     <pre>  Metronaut, Provogue &..
-<i style="color: green; font-size: small;">From Rs.249+10%Off</i></pre>
+<i style="color: #388e3c; font-size: small;">From Rs.249+10%Off</i>
+<small style="color: #9b9b9b; font-weight: bolder;">Tops & more</small></pre>
                 </td>
                 <td> <img src="f6.webp" alt=""><br>
                     <pre>  Home Improvement Range
-<i style="color: green;">From Rs.299</i></pre>
+<i style="color: #388e3c; font-size: small;">From Rs.299</i>
+<small style="color: #9b9b9b; font-weight: bolder;">Essential oils</small></pre>
                 </td>
             </tr>
         </table>
@@ -143,35 +170,41 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size:x-small; margin-top: 0px; 
             float: left; margin-bottom: 0px; margin-left: 15px; margin-bottom: 10px;">
-            Shop Now!</p>
+                Shop Now!</p>
         </div>
         <div class="border"></div>
         <table>
             <tr>
                 <td> <img src="s1.webp" alt=""><br>
                     <pre>  Diaries & Notebooks
-<i style="color: green;">Upto 50% Off</i></pre>
+<i style="color: #388e3c; font-size: small;">Upto 50% Off</i>
+<small style="color: #9b9b9b; font-weight: bolder;">Explore more</small></pre>
                 </td>
                 <td> <img src="s2.webp" alt=""><br>
                     <pre>  Home Theatres
-<i style="color: green;">New Launches</i></pre>
+<i style="color: #388e3c; font-size: small;">New Launches</i>
+<small style="color: #9b9b9b; font-weight: bolder;">Experience the sound</small></pre>
                 </td>
                 </td>
                 <td> <img src="s3.webp" alt=""><br>
                     <pre>  Wired Earphones
-<i style="color: green;">From Rs.399</i></pre>
+<i style="color: #388e3c; font-size: small;">From Rs.399</i>
+<small style="color: #9b9b9b; font-weight: bolder;">By Realme</small></pre>
                 </td>
                 <td> <img src="s4.webp" alt=""><br>
                     <pre>  Bluetooth Speakers
-<i style="color: green; font-size: small;">Explore More</i></pre>
+<i style="color: #388e3c; font-size: small;">Explore More</i>
+<small style="color: #9b9b9b; font-weight: bolder;">Sony, Mivi & more</small></pre>
                 </td>
                 <td> <img src="s5.webp" alt=""><br>
                     <pre>  Headphones Over Ear
-<i style="color: green; font-size: small;">From Rs.799</i></pre>
+<i style="color: #388e3c; font-size: small;">From Rs.799</i>
+<small style="color: #9b9b9b; font-weight: bolder;">Now at 799</small></pre>
                 </td>
                 <td> <img src="s6.webp" alt=""><br>
                     <pre>  Truewireless Earbuds
-<i style="color: green;">Explore Now</i></pre>
+<i style="color: #388e3c; font-size: small;">Explore Now</i>
+<small style="color: #9b9b9b; font-weight: bolder;">Largest Branded Selection</small></pre>
                 </td>
             </tr>
         </table>
@@ -179,4 +212,5 @@
     <!-- Second product category div ends -->
 
 </body>
+
 </html>
